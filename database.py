@@ -1,0 +1,6 @@
+from sqlalchemy import create_engine
+
+
+DB_URL = "postgresql://db_nako_user:3halkU77mrx0Gaw8HxpVqoDGDDNSDCpc@dpg-d7ngs4vlk1mc73d4p9m0-a.singapore-postgres.render.com/db_nako"
+
+engine = create_engine(DB_URL)
