@@ -1,0 +1,12 @@
+Live Deployment: https://elt1.onrender.com
+
+insights
+Insight 1: Used Environment Variables on Render to keep the database connection secure and hidden from the public.
+
+Insight 2: Cleaned "invoice_id" and "branch_id" by removing hidden single quotes in the transformation phase.
+
+Insight 3: Standardized JPY to USD, allowing for a direct comparison of global revenue between Japan and Myanmar.
+
+Insight 4: Provided a Live Web Service URL to give visual confirmation that the cloud deployment is active.
+
+Insight 5: Created a Presentation Layer (fact_global_sales), consolidating multiple sources into one easy-to-query table.
